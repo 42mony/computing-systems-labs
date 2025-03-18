@@ -1,0 +1,84 @@
+{
+    "substaion": {
+        "high_voltage": "110 kV",
+        "low_voltage": "35 kV"
+    },
+    "buses": [
+        {
+            "name": "High Voltage Bus",
+            "voltage": "110 kV",
+            "sections": [
+                "Section 1",
+                "Section 2"
+            ],
+            "section_breaker": "Q0"
+        },
+        {
+            "name": "Low Voltage Bus",
+            "voltage": "35 kV",
+            "sections": [
+                "Section 1",
+                "Section 2"
+            ],
+            "section_breaker": "Q1"
+        }
+    ],
+    "transformers": [
+        {
+            "name": "TR1",
+            "high_voltage": "110 kV",
+            "low_voltage": "35 kV",
+            "breaker": "Q2"
+        },
+        {
+            "name": "TR2",
+            "high_voltage": "110 kV",
+            "low_voltage": "35 kV",
+            "breaker": "Q3"
+        }
+    ],
+    "lines": {
+        "high_voltage": [
+            {
+                "name": "W1",
+                "breaker": "Q4"
+            }
+        ],
+        "low_voltage": [
+            {
+                "name": "W2",
+                "breaker": "Q5"
+            },
+            {
+                "name": "W3",
+                "breaker": "Q6"
+            },
+            {
+                "name": "W4",
+                "breaker": "Q7"
+            },
+            {
+                "name": "W5",
+                "breaker": "Q8"
+            }
+        ]
+    },
+    "protections": [
+        {
+            "name": "Main Protection",
+            "type": "Overcurrent",
+            "settings": {
+                "current_threshold": 1000,
+                "failure_probability": 0.2
+            }
+        },
+        {
+            "name": "Backup Protection",
+            "type": "Overcurrent",
+            "settings": {
+                "current_threshold": 1500,
+                "failure_probability": 0.05
+            }
+        }
+    ]
+}

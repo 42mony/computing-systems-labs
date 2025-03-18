@@ -1,0 +1,105 @@
+2025-03-18 23:26:52,502 - INFO - 
+Iteration 1
+2025-03-18 23:26:52,503 - INFO - Short circuit on Line - W4
+2025-03-18 23:26:52,503 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:26:52,503 - INFO - Main protection: Protection failed
+2025-03-18 23:26:52,503 - INFO - Backup protection: Protection succeed
+2025-03-18 23:26:52,503 - INFO - 
+Iteration 2
+2025-03-18 23:26:52,503 - INFO - Short circuit on Line - W4
+2025-03-18 23:26:52,503 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:26:52,503 - INFO - Main protection: Protection succeed
+2025-03-18 23:26:52,503 - INFO - 
+Iteration 3
+2025-03-18 23:26:52,503 - INFO - Short circuit on Line - W1
+2025-03-18 23:26:52,503 - INFO - Short circuit: Type - Two Phases
+2025-03-18 23:26:52,503 - INFO - Main protection: Protection succeed
+2025-03-18 23:26:52,503 - INFO - 
+Iteration 4
+2025-03-18 23:26:52,503 - INFO - Short circuit on Line - W5
+2025-03-18 23:26:52,503 - INFO - Short circuit: Type - Phase-to-Phase
+2025-03-18 23:26:52,503 - INFO - Short circuit has been eliminated by itself
+2025-03-18 23:26:52,503 - INFO - 
+Iteration 5
+2025-03-18 23:26:52,503 - INFO - Short circuit on Line - W3
+2025-03-18 23:26:52,504 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:26:52,504 - INFO - Main protection: Protection failed
+2025-03-18 23:26:52,504 - INFO - Backup protection: Protection succeed
+2025-03-18 23:26:52,504 - INFO - 
+Iteration 6
+2025-03-18 23:26:52,504 - INFO - Short circuit on Line - W1
+2025-03-18 23:26:52,504 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:26:52,504 - INFO - Short circuit has been eliminated by itself
+2025-03-18 23:26:52,504 - INFO - 
+Iteration 7
+2025-03-18 23:26:52,504 - INFO - Short circuit on Line - W5
+2025-03-18 23:26:52,504 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:26:52,504 - INFO - Main protection: Protection succeed
+2025-03-18 23:26:52,504 - INFO - 
+Iteration 8
+2025-03-18 23:26:52,504 - INFO - Short circuit on Line - W1
+2025-03-18 23:26:52,504 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:26:52,504 - INFO - Main protection: Protection succeed
+2025-03-18 23:26:52,504 - INFO - 
+Iteration 9
+2025-03-18 23:26:52,504 - INFO - Short circuit on Bus - High Voltage Bus
+2025-03-18 23:26:52,504 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:26:52,504 - INFO - Main protection: Protection succeed
+2025-03-18 23:26:52,504 - INFO - 
+Iteration 10
+2025-03-18 23:26:52,504 - INFO - Short circuit on Transformer - TR2
+2025-03-18 23:26:52,504 - INFO - Short circuit: Type - Phase-to-Phase
+2025-03-18 23:26:52,504 - INFO - Main protection: Protection failed
+2025-03-18 23:26:52,504 - INFO - Backup protection: Protection succeed
+2025-03-18 23:26:52,504 - INFO - Simulation completed
+2025-03-18 23:30:07,038 - INFO - 
+Iteration 1
+2025-03-18 23:30:07,038 - INFO - Short circuit on Bus - Low Voltage Bus
+2025-03-18 23:30:07,038 - INFO - Short circuit: Type - Phase-to-Phase
+2025-03-18 23:30:07,038 - INFO - Main protection: Protection succeed
+2025-03-18 23:30:07,038 - INFO - 
+Iteration 2
+2025-03-18 23:30:07,038 - INFO - Short circuit on Line - W4
+2025-03-18 23:30:07,038 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:30:07,038 - INFO - Short circuit has been eliminated by itself
+2025-03-18 23:30:07,038 - INFO - 
+Iteration 3
+2025-03-18 23:30:07,039 - INFO - Short circuit on Line - W2
+2025-03-18 23:30:07,039 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:30:07,039 - INFO - Main protection: Protection succeed
+2025-03-18 23:30:07,039 - INFO - 
+Iteration 4
+2025-03-18 23:30:07,039 - INFO - Short circuit on Line - W4
+2025-03-18 23:30:07,039 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:30:07,039 - INFO - Main protection: Protection succeed
+2025-03-18 23:30:07,039 - INFO - 
+Iteration 5
+2025-03-18 23:30:07,039 - INFO - Short circuit on Line - W5
+2025-03-18 23:30:07,039 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:30:07,039 - INFO - Short circuit has been eliminated by itself
+2025-03-18 23:30:07,039 - INFO - 
+Iteration 6
+2025-03-18 23:30:07,039 - INFO - Short circuit on Bus - High Voltage Bus
+2025-03-18 23:30:07,039 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:30:07,039 - INFO - Short circuit has been eliminated by itself
+2025-03-18 23:30:07,039 - INFO - 
+Iteration 7
+2025-03-18 23:30:07,039 - INFO - Short circuit on Line - W5
+2025-03-18 23:30:07,039 - INFO - Short circuit: Type - Phase-to-Phase
+2025-03-18 23:30:07,039 - INFO - Short circuit has been eliminated by itself
+2025-03-18 23:30:07,039 - INFO - 
+Iteration 8
+2025-03-18 23:30:07,039 - INFO - Short circuit on Bus - High Voltage Bus
+2025-03-18 23:30:07,039 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:30:07,039 - INFO - Main protection: Protection succeed
+2025-03-18 23:30:07,039 - INFO - 
+Iteration 9
+2025-03-18 23:30:07,039 - INFO - Short circuit on Transformer - TR2
+2025-03-18 23:30:07,039 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:30:07,039 - INFO - Short circuit has been eliminated by itself
+2025-03-18 23:30:07,039 - INFO - 
+Iteration 10
+2025-03-18 23:30:07,039 - INFO - Short circuit on Line - W3
+2025-03-18 23:30:07,039 - INFO - Short circuit: Type - Single Phase
+2025-03-18 23:30:07,040 - INFO - Main protection: Protection succeed
+2025-03-18 23:30:07,040 - INFO - Simulation completed
