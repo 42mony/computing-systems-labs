@@ -1,0 +1,41 @@
+{
+  "scheme_parameters": {
+    "name": "Схема №4",
+    "count_nodes": 2,
+    "count_branches": 3,
+    "sampling_time": 1e-5,
+    "simulation_time": 0.14,
+    "transition_mode": "включение",
+    "list_measurements_objects": ["E1", "R1", "L1"],
+    "step": 50e-8
+  },
+  "scheme_elements": [
+    {
+      "name": "E1",
+      "type_element": "E_AC",
+      "start_node": 0,
+      "end_node": 1,
+      "branch": 0,
+      "amplitude": 15,
+      "frequency": 50,
+      "internal_resistance": 0.1
+    },
+    {
+      "name": "R1",
+      "type_element": "R",
+      "start_node": 1,
+      "end_node": 2,
+      "branch": 1,
+      "resistance": 10
+    },
+    {
+      "name": "L1",
+      "type_element": "L",
+      "start_node": 2,
+      "end_node": 0,
+      "branch": 2,
+      "inductance": 100,
+      "initial_current": 0.01
+    }
+  ]
+}
