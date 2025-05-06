@@ -1,0 +1,121 @@
+{
+    "scheme_parameters": {
+        "name": "Трёхфазная система",
+        "count_nodes": 4,
+        "count_branches": 9,
+        "step": 0.0005,
+        "simulation_time": 0.140,
+        "transition_mode": "включение",
+        "list_measurements_objects": ["E1", "E2", "E3", "R1", "R2", "R3", "L1", "L2", "L3", "C1"]
+    },
+    "scheme_elements": [
+        {
+            "name": "E1",
+            "type_element": "E_AC",
+            "start_node": 0,
+            "end_node": 1,
+            "branch": 0,
+            "amplitude": 220,
+            "frequency": 50,
+            "initial_phase": 0
+        },
+        {
+            "name": "R1",
+            "type_element": "R",
+            "start_node": 1,
+            "end_node": 4,
+            "branch": 1,
+            "resistance": 10
+        },
+        {
+            "name": "L1",
+            "type_element": "L",
+            "start_node": 4,
+            "end_node": 7,
+            "branch": 2,
+            "inductance": 100,
+            "initial_current": 0
+        },
+        {
+            "name": "E2",
+            "type_element": "E_AC",
+            "start_node": 0,
+            "end_node": 2,
+            "branch": 3,
+            "amplitude": 220,
+            "frequency": 50,
+            "initial_phase": 120
+        },
+        {
+            "name": "R2",
+            "type_element": "R",
+            "start_node": 2,
+            "end_node": 5,
+            "branch": 4,
+            "resistance": 20
+        },
+        {
+            "name": "L2",
+            "type_element": "L",
+            "start_node": 5,
+            "end_node": 8,
+            "branch": 5,
+            "inductance": 200,
+            "initial_current": 0
+        },
+        {
+            "name": "E3",
+            "type_element": "E_AC",
+            "start_node": 0,
+            "end_node": 3,
+            "branch": 6,
+            "amplitude": 220,
+            "frequency": 50,
+            "initial_phase": -120
+        },
+        {
+            "name": "R3",
+            "type_element": "R",
+            "start_node": 3,
+            "end_node": 6,
+            "branch": 7,
+            "resistance": 30
+        },
+        {
+            "name": "L3",
+            "type_element": "L",
+            "start_node": 6,
+            "end_node": 9,
+            "branch": 8,
+            "inductance": 300,
+            "initial_current": 0
+        },
+        {
+            "name": "C1",
+            "type_element": "C",
+            "start_node": 7,
+            "end_node": 0,
+            "branch": 9,
+            "capacitance": 500,
+            "initial_voltage": 0
+        },
+        {
+            "name": "C2",
+            "type_element": "C",
+            "start_node": 8,
+            "end_node": 0,
+            "branch": 10,
+            "capacitance": 500,
+            "initial_voltage": 0
+        },
+        {
+            "name": "C3",
+            "type_element": "C",
+            "start_node": 9,
+            "end_node": 0,
+            "branch": 11,
+            "capacitance": 100,
+            "initial_voltage": 0
+        }
+    ]
+}
